@@ -7,7 +7,7 @@ const countdown = document.querySelector('#countdown');
 
 
 const currentYear = new Date().getFullYear();
-const nextYear = new Date(`February 22 ${currentYear} 00:00:00`);
+const nextYear = new Date(`February 22 ${currentYear + 1} 00:00:00`);
 
 year.innerText = currentYear + 1;
 
